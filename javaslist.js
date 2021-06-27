@@ -75,7 +75,7 @@ fruitList.addEventListener("click", (e) => {
         ul.insertBefore(nextLi, li);
       }
     } else if (btnClasses.contains("up")) {
-      let li = e.target.parentNode.parentNode;
+      let li = e.target.parentNode.parentNodeG;
       let ul = li.parentNode;
       let prevLi = li.previousElementSibling;
       console.log(prevLi);

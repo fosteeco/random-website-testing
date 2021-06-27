@@ -11,6 +11,7 @@ body {
   /* background-color: #e6edff; */
   background: linear-gradient(#fff100, #ff9999, #9999ff);
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 .wrapper {
   /* background-color: #ccdbff; */
@@ -73,10 +74,20 @@ textarea {
 /* Java-List Style modifications  */
 .input-wrapper {
   display: flex;
-  width: 100%;
+  justify-content: center;
+  margin-bottom: 5rem;
+  transform: translateX(5%);
+}
+.input-wrapper button {
+  transform: translateX(-100%);
+  border-radius: 0 10px 10px 0;
 }
 .fruit-content-wrap {
   width: 700px;
+}
+
+.fruit-content-wrap h3 {
+  text-align: center;
 }
 .fruit-list {
   display: flex;
@@ -96,6 +107,7 @@ textarea {
 }
 .li-content-wrap button {
   flex: 1;
+  font-size: 20px;
   padding: 20px;
   border-radius: 20px;
   /* transform: translateY(-25%); */
@@ -105,5 +117,5 @@ textarea {
   margin-left: 10px;
 }
 .li-content-wrap .fruit-span {
-  flex: 4;
+  flex: 3;
 }
