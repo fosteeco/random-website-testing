@@ -7,80 +7,24 @@
     <title>Java List Example</title>
     <link rel="stylesheet" href="style.css" />
     <!-- <script src="script.js" defer></script> -->
-    <script src="javaslist.js"></script>
+    <script src="javaslist.js" defer></script>
   </head>
   <body>
     <div class="wrapper">
-      <div class="form-content">
-        <h1>Simple Sign Up form</h1>
-        <form>
-          <label for="name">Enter username: </label>
-          <input type="text" id="name" name="user_name" />
-          <label for="email">Enter email:</label>
-          <input type="email" id="email" name="user_email" />
-          <label for="password">Enter password: </label>
-          <input type="password" id="password" name="user_password" />
-          <label for="bio">Enter bio:</label>
-          <textarea name="user_bio" id="bio"></textarea>
-          <label for="pantsize">What size pants do you wear?</label>
-          <select name="user_pantsize" id="pantsize">
-            <option value="" selected disabled hidden>Choose Here</option>
-            <option value="small">Small</option>
-            <option value="medium">Medium</option>
-            <option value="large">Large</option>
-          </select>
-          <label>Interests:</label>
-          <div class="checkbox-wrapper">
-            <input
-              type="checkbox"
-              id="in_web"
-              value="interest_web"
-              name="user_interest"
-            />
-            <label for="in_web">Web Development?</label><br />
-            <input
-              type="checkbox"
-              id="in_finance"
-              value="interest_finance"
-              name="user_interest"
-            />
-            <label for="in_finance">Finance</label><br />
-            <input
-              type="checkbox"
-              id="in_biology"
-              value="interest_biology"
-              name="user_interest"
-            />
-            <label for="in_biology">Biology</label><br />
-            <input
-              type="checkbox"
-              id="in_law"
-              value="interest_law"
-              name="user_interest"
-            />
-            <label for="in_law">Law</label><br />
-            <label for="courses">Select your favorite course</label>
-            <select name="user_courses" id="courses">
-              <option value="" selected disabled hidden>choose here</option>
-              <optgroup label="Math">
-                <option value="linear-algebra">Linear Algebra</option>
-                <option value="discrete-math">Discrete Math</option>
-                <option value="calculus-1">Calculus 1</option>
-              </optgroup>
-              <optgroup label="English/Writing">
-                <option value="english-101">English 101</option>
-                <option value="english-102">English 102</option>
-                <option value="english-103">English 103</option>
-              </optgroup>
-              <optgroup label="Science">
-                <option value="physics-101">Physics 101</option>
-                <option value="chemistry-101">Chemistry 101</option>
-                <option value="biology-101">Biology 101</option>
-              </optgroup>
-            </select>
-          </div>
-          <button type="submit">Submit your info</button>
-        </form>
+      <h1>Recreating List from Treehouse</h1>
+      <h2>Rank your favorite fruits</h2>
+      <div class="fruit-content-wrap">
+        <ol class="fruit-list">
+          <li><span class="fruit-span"> 1</span></li>
+          <li><span class="fruit-span"> 2</span></li>
+          <li><span class="fruit-span"> 3</span></li>
+          <li><span class="fruit-span"> 4</span></li>
+        </ol>
+        <h3>Add more right here</h3>
+        <div class="input-wrapper">
+          <input type="text" />
+          <button type="submit" id="add-fruit">Submit</button>
+        </div>
       </div>
     </div>
   </body>

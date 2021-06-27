@@ -33,11 +33,11 @@ input {
   border-radius: 10px;
 }
 input:focus,
-.form-content button:focus,
 input:hover,
-.form-content button:hover,
 textarea:hover,
-textarea:focus {
+textarea:focus,
+button:hover,
+button:focus {
   box-shadow: 0 0 10px #000;
   outline: none;
 }
@@ -68,4 +68,42 @@ label {
 textarea {
   border-radius: 10px;
   padding: 0.4rem;
+}
+
+/* Java-List Style modifications  */
+.input-wrapper {
+  display: flex;
+  width: 100%;
+}
+.fruit-content-wrap {
+  width: 700px;
+}
+.fruit-list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+}
+.fruit-list li {
+  margin: 2rem 0 2rem 0;
+}
+.fruit-span {
+  display: inline-block;
+}
+.li-content-wrap {
+  display: flex;
+  align-items: center;
+}
+.li-content-wrap button {
+  flex: 1;
+  padding: 20px;
+  border-radius: 20px;
+  /* transform: translateY(-25%); */
+}
+.li-content-wrap button.down {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.li-content-wrap .fruit-span {
+  flex: 4;
 }
