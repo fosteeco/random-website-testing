@@ -119,3 +119,98 @@ textarea {
 .li-content-wrap .fruit-span {
   flex: 3;
 }
+
+/* Music notes */
+.music-note-wrap {
+  position: relative;
+  height: 200px;
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background: #191919;
+}
+.line {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 10px;
+  height: 100px;
+  background-color: #fe5f55;
+  transform: translate(-50%, -50%);
+  margin-top: -10px;
+}
+.line-1 {
+  margin-left: -100px;
+  margin-top: -10px;
+}
+.line-2 {
+  margin-left: -30px;
+}
+.line-3 {
+  background: #a64942;
+  margin-left: 40px;
+}
+.line-4 {
+  margin-left: 110px;
+}
+.line-top-1 {
+  height: 80px;
+  transform: rotate(90deg);
+  margin-top: -95px;
+  margin-left: -70px;
+}
+.line-top-2 {
+  background: #a64942;
+  height: 40px;
+  width: 10px;
+  transform: rotate(90deg);
+  margin-top: -75px;
+  margin-left: 50px;
+}
+.line-top-3 {
+  height: 40px;
+  width: 10px;
+  transform: rotate(90deg);
+  margin-top: -75px;
+  margin-left: 120px;
+}
+.line-top-4 {
+  height: 40px;
+  width: 10px;
+  transform: rotate(90deg);
+  margin-top: -55px;
+  margin-left: 120px;
+}
+.circle {
+  background: #fe5f55;
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+}
+.circle-1 {
+  top: 50%;
+  left: 50%;
+  margin-left: -145px;
+  margin-top: 20px;
+}
+.circle-2 {
+  top: 50%;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: 20px;
+}
+.circle-3 {
+  background: #a64942;
+  top: 50%;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: 20px;
+}
+.circle-4 {
+  background: #fe5f55;
+  top: 50%;
+  left: 50%;
+  margin-left: 65px;
+  margin-top: 20px;
+}

@@ -31,3 +31,13 @@ const generateChess = (length, width) => {
   return output;
 };
 console.log(generateChess(5, 5));
+
+const getTechs = async () => {
+  try {
+    const res = await fetch("http://localhost:5000/api/techs");
+    const data = await res.json();
+    console.log(res);
+    console.log(data);
+  } catch (error) {}
+};
+getTechs();
